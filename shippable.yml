@@ -1,5 +1,6 @@
 # Language setting
 language: clojure
+build_image: drydock/u12clopls:tip
 
 lein:
   - lein2
@@ -13,3 +14,4 @@ before_script:
 script:
   - cd sample
   - lein test2junit
+
