@@ -14,5 +14,43 @@ before_script:
 script:
   - cd sample
   - lein test2junit
+
+notifications:
+ email:
+  - padmakumar.revathi@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
+
 
